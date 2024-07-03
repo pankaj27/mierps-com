@@ -11,7 +11,7 @@ class WebController extends Controller
     
     public function home(Request $request){
 
-        return view('web/mainHome');
+        return view('web/home/home-view');
 
     }
   
